@@ -1,0 +1,99 @@
+/* style.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('gibli.jpg'); /* Ubah path sesuai dengan lokasi gambar Anda */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600; /* Pilih bobot font sesuai kebutuhan */
+    margin-bottom: 20px;
+    color: #333;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.task-input input,
+.task-input select {
+    width: 30%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.task-input button {
+    padding: 10px 20px;
+    background-color: #af4c9e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.task-input button:hover {
+    background-color: #45a049;
+}
+
+.filters button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ddd;
+    transition: background 0.3s;
+}
+
+.filters button:hover {
+    background-color: #bbb;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+.statistics {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
